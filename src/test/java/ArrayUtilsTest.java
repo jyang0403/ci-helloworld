@@ -22,7 +22,7 @@ public class ArrayUtilsTest {
         assertEquals(-1, ArrayUtils.findLast(new int[]{1, 2}, 3));
     }
 
-    /*@Test
+    @Test
     public void testFindLastExistsFirstElement() {
         assertEquals(0, ArrayUtils.findLast(new int[]{2, 3, 5}, 2));
     }
@@ -59,5 +59,5 @@ public class ArrayUtilsTest {
     @Test
     public void testCountOfFound() {
         assertEquals(3, ArrayUtils.countOf(new int[]{1, 2, 3, 4, 5, 1, 1}, 1));
-    }*/
+    }
 }
