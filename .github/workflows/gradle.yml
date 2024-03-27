@@ -40,7 +40,7 @@ jobs:
           generate-branches-badge: true
           generate-coverage-badge: true
           jacoco-csv-file: build/reports/jacoco/test/jacocoTestReport.csv
-          fail-on-branch-decrease: true
+          fail-on-branches-decrease: true
           generate-summary: true
       - name: Log coverage percentage
         run: |
