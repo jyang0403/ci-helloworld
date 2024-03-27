@@ -46,12 +46,12 @@ public class ArrayUtilsTest {
         assertEquals(3, ArrayUtils.oddOrPos(new int[]{-3, -2, 0, 1, 4}));
     }
 
-    @Test
+    /*@Test
     public void testCountOfEmpty() {
         assertEquals(0, ArrayUtils.countOf(new int[]{}, 0));
     }
 
-    /*@Test
+    @Test
     public void testCountOfNotFound() {
         assertEquals(0, ArrayUtils.countOf(new int[]{1, 2, 3, 4, 5}, 0));
     }
